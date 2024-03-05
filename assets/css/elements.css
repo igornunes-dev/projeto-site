@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --primary-color: #0A1128;
+  --white-color: #FFFFFF;
+  --light-gray-color: #eee;
+  --gap: 3rem;
+  --second-color: #091438;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin-bottom: 3rem;
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem var(--gap);
+}
+
+.white-bg {
+  background: var(--white-color);
+  
+}
+ 
+
+.main-bg{
+  background: url('../img/vanishing-stripes.svg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.responsive-table{
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+table{
+  min-width: 36rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+table caption{
+  font-style: italic;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+table td, table th{
+  padding: 1rem;
+  text-align: left;
+  border: 0.1rem solid var(--light-gray-color);
+}
+
+tfoot td, thead th{
+  background: var(--light-gray-color);
+}
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
+}
+
